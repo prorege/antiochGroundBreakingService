@@ -1,0 +1,185 @@
+/*Style.CSS*/
+/* All logos and logo sizes are edited in this CSS*/
+
+.tile {
+    background-image: url("../tile.png");
+    background-repeat: repeat;
+}
+
+#preloader h1 {
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 100px;
+}
+
+
+@keyframes focus-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        transform: translateZ(300px);
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    100% {
+        transform: translateZ(12px);
+        filter: blur(0);
+        opacity: 1
+    }
+}
+
+.background-container {
+position: relative;
+margin: 0;
+z-index: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 0;
+}
+
+
+
+
+
+
+/* Custom */
+#container1 {
+    height: 600px;
+}
+#container2 {
+    margin-top: 50px;
+    height: 900px;
+}
+#background1{
+    height: 100%;
+}
+#content-image1 {
+    z-index: 1;
+    /* bottom: 90%; */
+    height: auto;
+    width:100%;
+    height: 100px;
+    top: -13%;
+    animation: focus-in-contract-bck 1s cubic-bezier(.25, .46, .45, .94) both;
+}
+#content-image2 {
+    z-index: 1;
+    width: 100%;
+    bottom: 0%;
+    top : -5%;
+    padding: 0;
+    animation: focus-in-contract-bck 2s cubic-bezier(.25, .46, .45, .94) both;
+}
+#content-image3 {
+    width: 100%;
+    bottom: 0%;
+    top : -5%;
+
+    animation: focus-in-contract-bck 2.5s cubic-bezier(.25, .46, .45, .94) both;
+
+}
+#content-image4 {
+    width: 100%;
+    top : -5%;
+
+    animation: focus-in-contract-bck 3s cubic-bezier(.25, .46, .45, .94) both;
+}
+#content-image5 {
+    top : -5%;
+
+    width: 100%;
+    animation: focus-in-contract-bck 3s cubic-bezier(.25, .46, .45, .94) both;
+}
+#content-image6 {
+    z-index: 10;
+    top: 20%;
+    width: 100%;
+    animation: focus-in-contract-bck 3s cubic-bezier(.25, .46, .45, .94) both;
+}
+.content-image {
+    position: absolute;
+}
+
+#background2 {
+    height: 10px;
+    margin-top: 30%;
+    width: 100%;
+}
+
+#background3 {
+    height: 10%;
+    width:70%;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+#background4 {
+    height: 10%;
+    width:50%;
+    margin-bottom: 00%;
+    margin-top: 0%;
+
+}
+
+#background5 {
+    height: 30%;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+#background6 {
+    height: 30%;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+#location {
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20%;
+}
+
+#address {
+    margin-bottom: 7%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.gallery-on {
+    margin: 0px;
+    z-index: 1;
+}
+
+/* .horizontal-box{max-width:960px; width:100%; height:800px; border:1px solid #ccc; margin:0 auto;} */
+.horizontal-box{
+    margin-top: 45%;
+}
+#horizontal-tab ul {
+    white-space: nowrap;
+    overflow-x: auto;
+    text-align: center;
+    padding: 0;
+    margin:0;
+}
+
+#horizontal-tab ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    margin-right: 10px;
+    margin:0;
+}
+
+#mani{
+    touch-action: manipulation;
+}
+.btnCarousel{
+    height: 250px;
+    width: 70px;
+    margin-top: 200px;
+}
