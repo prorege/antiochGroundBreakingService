@@ -61,10 +61,10 @@ padding: 0;
 #content-image1 {
     z-index: 1;
     /* bottom: 90%; */
-    height: auto;
+    height: 50px;
     width:80%;
     height: 100px;
-    top: -5%;
+    top: -10%;
     margin-left: 0;
     animation: focus-in-contract-bck 1s cubic-bezier(.25, .46, .45, .94) both;
 }
