@@ -448,7 +448,7 @@
 		#eventen-day .fc-calendar .fc-row>div.fc-content .fc-date {
 			color: #ffffff !important;
 		}
-
+/* 
 		#map {
 			width: 100%;
 			height: 360px;
@@ -456,7 +456,7 @@
 			border-right: 1px solid hsla(0, 0%, 100%, .25);
 			border-left: 1px solid hsla(0, 0%, 100%, .25);
 			margin-top: 10px;
-		}
+		} */
 
 		.map-navigation {
 			top: -70px;
@@ -1074,10 +1074,11 @@
 				<div class="main-img reveal background-image" id="background7"><img src="images02-6.png"></div>
 				<div class="main-img reveal background-image" id="background4"><img src="./files/images02-3.png"></div>
 				<div class="main-img reveal background-image" id="background5"><img src="./files/images02-4.png"></div>
-				<div class="main-img reveal background-image" id="background6"><img src="./files/images02-5.png"></div>
-				<div class="main-img background-image" id="background2"><img src="./files/images02-1.png" style="bo"></div>
+				<div class="main-img reveal background-image" id=""><img src="calender.png"></div>
+				
+				<!-- <div class="main-img reveal background-image" id="background6"><img src="./files/images02-5.png"></div> -->
+
 			</div>
-			
 
 			<!-- <div class="horizontal-box">
 				<div id="horizontal-tab">
@@ -1380,7 +1381,50 @@
 						</script> Antioch Church</a>, all rights reserved</p>
 				</div> -->
 			</div>
+
+			<div id="map" style="z-index : 10; width:100%;height:300px;"></div>
+
+			<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5a8a5075814dbe5e799488e566b962c5"></script>
+			<script>
+				var container = document.getElementById('map');
+				var options = {
+		 			center: new kakao.maps.LatLng(36.0734673043172, 128.355375296391), // 지도의 중심좌표
+					level: 4
+				};
+		
+				var map = new kakao.maps.Map(container, options);
+
+				var imageSrc = './files/marker_red.png', // 마커이미지의 주소입니다    
+					 		imageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
+					 		imageOption = {
+					 			offset: new kakao.maps.Point(27, 69)
+					 		};
+			 	var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+					markerPosition = new kakao.maps.LatLng(36.0734673043172, 128.355375296391); // 마커가 표시될 위치입니다
+
+			</script>
+			<div class="main-img background-image" id="background2"><img src="./files/images02-1.png" style="bo"></div>
+
 			<script type="text/javascript">
+
+					// var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+					// 		mapOption = {
+					// 			center: new kakao.maps.LatLng(36.0734673043172, 128.355375296391), // 지도의 중심좌표
+					// 			level: 4 // 지도의 확대 레벨
+					// 		};
+
+					// 	var map = new kakao.maps.Map(mapContainer, mapOption);
+
+					// 	var imageSrc = './files/marker_red.png', // 마커이미지의 주소입니다    
+					// 		imageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
+					// 		imageOption = {
+					// 			offset: new kakao.maps.Point(27, 69)
+					// 		}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+
+					// 	// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+					// 	var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+					// 		markerPosition = new kakao.maps.LatLng(36.0734673043172, 128.355375296391); // 마커가 표시될 위치입니다
+
 				/**
 				 * jquery.calendario.js v3.2.0
 				 * http://www.codrops.com
