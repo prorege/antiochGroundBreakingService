@@ -60,8 +60,8 @@ padding: 0;
     top: 0%;
     margin-left: 0;
     animation: focus-in-contract-bck 1s cubic-bezier(.25, .46, .45, .94) both; */
-    height: 100px;
-    width: 80%;
+    height: 100%;
+    width: 100%;
 }
 #content-image2 {
     z-index: 1;
