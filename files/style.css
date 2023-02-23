@@ -94,8 +94,8 @@ padding: 0;
     top: 20%;
     height: 50%;
     width: 100%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-bottom: 0px;
     animation: focus-in-contract-bck 3s cubic-bezier(.25, .46, .45, .94) both;
 }
 .content-image {
@@ -103,7 +103,7 @@ padding: 0;
 }
 #container2 {
     margin-top: 0px;
-    height: 900px;
+    height: 1000px;
     margin-bottom: -20px;
 }
 #background1{
