@@ -47,44 +47,53 @@ padding: 0;
 
 /* Custom */
 #container1 {
-    height: 100%;
+    height: 600px;
     padding: 0;
 }
-
-#content-image1 {
-    /* z-index: 1;
-    /* bottom: 90%; */
-  /*  
-    width:80%;
-    height: 100px;
-    top: 0%;
-    margin-left: 0;
-    animation: focus-in-contract-bck 1s cubic-bezier(.25, .46, .45, .94) both; */
+#container2 {
+    margin-top: 150px;
+    height: 900px;
+}
+#background1{
     height: 100%;
+    padding: 0;
     width: 100%;
+}
+#content-image1 {
+    z-index: 1;
+    /* bottom: 90%; */
+    height: auto;
+    width:100%;
+    height: 100%;
+    top: -5%;
+    margin-left: 0;
+    animation: focus-in-contract-bck 1s cubic-bezier(.25, .46, .45, .94) both;
 }
 #content-image2 {
     z-index: 1;
     width: 100%;
     bottom: 0%;
-    top : 0%;
+    top : -5%;
     padding: 0;
-    margin-top: 30px;
+    background-color: #bfe1f8;
+
     animation: focus-in-contract-bck 2s cubic-bezier(.25, .46, .45, .94) both;
 }
 #content-image3 {
     width: 100%;
     bottom: 0%;
-
+    top : -5%;
     animation: focus-in-contract-bck 2.5s cubic-bezier(.25, .46, .45, .94) both;
 
 }
 #content-image4 {
     width: 100%;
+    top : -5%;
 
     animation: focus-in-contract-bck 3s cubic-bezier(.25, .46, .45, .94) both;
 }
 #content-image5 {
+    top : -5%;
 
     width: 100%;
     animation: focus-in-contract-bck 3s cubic-bezier(.25, .46, .45, .94) both;
@@ -92,67 +101,63 @@ padding: 0;
 #content-image6 {
     z-index: 10;
     top: 20%;
-    height: 50%;
     width: 100%;
-    margin-top: 30px;
-    margin-bottom: 0px;
     animation: focus-in-contract-bck 3s cubic-bezier(.25, .46, .45, .94) both;
 }
 .content-image {
     position: absolute;
 }
-#container2 {
-    margin-top: 0px;
-    height: 1000px;
-    margin-bottom: -20px;
-}
-#background1{
-    height: 450px;
-    width: 100%;
-    padding: 0;
-    margin-bottom: 1px;
-}
 
 #background2 {
     height: 10px;
     padding-top: 10%;
-    background-color:#bfe1f8;
     width: 100%;
     padding-bottom: 20%;
+    background-color: #bfe1f8;
 }
 
 #background3 {
-    height: 10%;
+    height: 0%;
     width:100%;
     margin-bottom: 0px;
-    margin-top: 30px;
+    background-color: #bfe1f8;
+
+    margin-top: 100px;
 }
 
 #background4 {
-    height: 10%;
-    width:100%;
+    height: 20%;
+    width:50%;
+    background-color: #bfe1f8;
+
     margin-bottom: 00%;
     margin-top: 0%;
 
 }
 
 #background5 {
-    height: 25%;
+    height: 50%;
     width: 100%;
+    background-color: #bfe1f8;
+
     margin-bottom: 10%;
-    margin-top: 0%;
+    margin-top: 10%;
 }
 #background6 {
     height: 30%;
     width: 80%;
+    background-color: #bfe1f8;
+
     margin-bottom: 10%;
     margin-top: 0%;
 }
 #background7 {
-    height: 3%;
+    height: 5%;
     width: 100%;
     margin-bottom: 0%;
-    margin-top: 1%;
+    margin-top: 10%;
+    background-color: #bfe1f8;
+
     padding: 0;
 }
 
