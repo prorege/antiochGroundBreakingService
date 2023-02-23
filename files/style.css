@@ -59,6 +59,7 @@ padding: 0;
     height: 700px;
     width: 100%;
     padding: 0;
+    margin-bottom: 1px;
 }
 #content-image1 {
     /* z-index: 1;
@@ -78,7 +79,7 @@ padding: 0;
     bottom: 0%;
     top : 0%;
     padding: 0;
-    margin-top: 100px;
+    margin-top: 30px;
     animation: focus-in-contract-bck 2s cubic-bezier(.25, .46, .45, .94) both;
 }
 #content-image3 {
@@ -106,6 +107,7 @@ padding: 0;
     top: 20%;
     height: 50%;
     width: 100%;
+    margin-top: 100px;
     animation: focus-in-contract-bck 3s cubic-bezier(.25, .46, .45, .94) both;
 }
 .content-image {
@@ -138,7 +140,7 @@ padding: 0;
 #background5 {
     height: 25%;
     width: 100%;
-    margin-bottom: 0%;
+    margin-bottom: 10%;
     margin-top: 0%;
 }
 #background6 {
