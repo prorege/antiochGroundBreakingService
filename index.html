@@ -1084,7 +1084,34 @@
 			</div>
 			<div class="main-img reveal background-image"style="background-color: #bfe1f8;"  id="background3"><img src="./files/images03-2.png"></div>
 			<div class="main-img reveal background-image" style="background-color: #bfe1f8;" id="background7"><img src="./files/images03-3.png"></div>
+			<div class="address one" id="add">
+				<h4>경북 구미시 오태길 47 안디옥교회</h4>
+			</div>
 
+
+			<div class="address" id="app">
+				<button class="custom-btn btn-3">주소 복사</button>
+			  </div>
+			  
+			  <script>
+				function copyText() {
+				  const temp = document.createElement('textarea')
+			  
+				  document.body.appendChild(temp)
+			  
+				  temp.value = '경북 구미시 오태길 47 안디옥교회'
+				  temp.select()
+			  
+				  document.execCommand('copy')
+				  document.body.removeChild(temp)
+			  
+				  window.alert('복사 완료')
+				}
+			  
+				const button = document.querySelector('button')
+				button.addEventListener('click', copyText)
+			  </script>
+			
 			<!-- <div class="main-img background-image background-container" id="container2" style="background-color: #bfe1f8;"></div> -->
 
 			<!-- <div class="horizontal-box">
