@@ -104,11 +104,9 @@ padding: 0;
     position: absolute;
 }
 
-#background2 {
-    height: 10px;
-    padding-top: 10%;
-    width: 100%;
-    padding-bottom: 20%;
+#background2 
+{
+    padding-top: 80px;
     background-color: #bfe1f8;
 }
 
@@ -117,7 +115,6 @@ padding: 0;
     width:100%;
     margin-bottom: 0px;
     background-color: #bfe1f8;
-
     margin-top: 100px;
 }
 
@@ -148,17 +145,14 @@ padding: 0;
     margin-top: 0%;
 }
 #background7 {
-    height: 5%;
     width: 100%;
     margin-bottom: 0%;
-    margin-top: 10%;
     background-color: #bfe1f8;
-
     padding: 0;
 }
 
 #location {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 20%;
