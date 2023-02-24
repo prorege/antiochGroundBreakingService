@@ -41,7 +41,6 @@ padding: 0;
 }
 
 .wrap{
-    height: 101%;
     overflow:auto;
     -webkit-overflow-scrolling: touch; /* 추가 */
 }
@@ -53,14 +52,13 @@ padding: 0;
 
 /* Custom */
 #container1 {
-    padding: 0;
+    padding-bottom: 0;
 }
 #container2 {
     margin-top: 150px;
 }
 #background1{
     height: 100%;
-    padding: 0;
     width: 100%;
 }
 #content-image1 {
@@ -120,7 +118,8 @@ padding: 0;
     width:100%;
     margin-bottom: 0px;
     background-color: #bfe1f8;
-    margin-top: 100px;
+    padding-top: 50px;
+    margin-top: 50px;
 }
 
 #background4 {
